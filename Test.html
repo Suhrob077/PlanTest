@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand vs Kontrakt</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="status">Natijani kiriting...<ion-icon name="analytics-outline"></ion-icon></div>
+    <div class="Test">
+        <label for="score">Ball kiriting 🔻</label>
+        <input type="number" placeholder="Ball" id="score" min="0" max="100">
+        <button onclick="saveScore()">Done</button>
+    </div>
+    <div class="Tarix">
+        <button><ion-icon name="eye-outline"></ion-icon></button>
+        <div class="Allhistory">
+            <ul id="history"></ul>
+        </div>
+    </div>
+    
+    <div class="progress-container">
+        <svg width="150" height="150">
+            <circle cx="75" cy="75" r="70" class="progress-circle" />
+            <circle cx="75" cy="75" r="70" class="progress-bar" id="progressBar" />
+            <text x="50%" y="50%" text-anchor="middle" dy="10" class="progress-text" id="progressText">0%</text>
+        </svg>
+    </div>
+
+    <div id="status">Natijani kiriting...</div>
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

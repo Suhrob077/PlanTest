@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 1000px;
+    background-color: rgb(20, 19, 19);
+    background-image: url(./Без\ названия.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.progress-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+.progress-circle {
+    fill: none;
+    stroke-width: 10;
+    stroke: #ddd;
+}
+.progress-bar {
+    fill: none;
+    stroke-width: 10;
+    stroke: green;
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    transition: stroke-dashoffset 1s linear;
+}
+.progress-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Tarix{
+    padding-top: 20px;
+}
+.Tarix button{
+    background-color: #00000079;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#status {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+label{
+    font-size: 20px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+ul{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ul li{
+    font-weight: 500;
+    width: 300px;
+    padding: 10px ;
+    font-size: 20px;
+    background: #bcfffc73;
+    border-radius: 0px 50px 50px 0px;
+}
+ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+  }
+.Test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input{
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.name{
+    font-size: 30px; color: rgb(255, 196, 0);
+}
+#history{
+    transition: 1.2s;
+}
